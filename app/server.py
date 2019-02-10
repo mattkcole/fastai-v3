@@ -8,10 +8,18 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'https://www.dropbox.com/s/v6cuuvddq73d1e0/export.pkl?raw=1'
-export_file_name = 'export.pkl'
+export_file_url = 'https://www.dropbox.com/s/23qu801ekw9qsiz/mexican_export.pkl?dl=0'
+export_file_name = 'mexican_export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['burrito',
+ 'chalupa',
+ 'chimichanga',
+ 'enchilada',
+ 'fajita',
+ 'nacho',
+ 'quesadilla',
+ 'tacos ',
+ 'tamale']
 path = Path(__file__).parent
 
 app = Starlette()
