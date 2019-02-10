@@ -8,7 +8,7 @@ from io import BytesIO
 from fastai import *
 from fastai.vision import *
 
-export_file_url = 'https://www.dropbox.com/s/23qu801ekw9qsiz/mexican_export.pkl?dl=0'
+export_file_url = 'https://www.dropbox.com/s/23qu801ekw9qsiz/mexican_export.pkl?dl=1'
 export_file_name = 'mexican_export.pkl'
 
 classes = ['burrito',
